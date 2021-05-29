@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622296369934" clover="3.2.0">
-  <project timestamp="1622296369934" name="All files">
-    <metrics statements="77" coveredstatements="76" conditionals="19" coveredconditionals="17" methods="8" coveredmethods="8" elements="104" coveredelements="101" complexity="0" loc="77" ncloc="77" packages="3" files="6" classes="6"/>
-    <package name="controllers.signup">
+<coverage generated="1622298291765" clover="3.2.0">
+  <project timestamp="1622298291765" name="All files">
+    <metrics statements="84" coveredstatements="83" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9" elements="113" coveredelements="110" complexity="0" loc="84" ncloc="84" packages="4" files="7" classes="7"/>
+    <package name="presentation.controllers.signup">
       <metrics statements="40" coveredstatements="39" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/controllers/signup/signup.ts">
         <metrics statements="40" coveredstatements="39" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
@@ -48,7 +48,7 @@
         <line num="40" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="errors">
+    <package name="presentation.errors">
       <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/errors/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -84,7 +84,7 @@
         <line num="6" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="helpers">
+    <package name="presentation.helpers">
       <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="http-helper.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/helpers/http-helper.ts">
         <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
@@ -104,6 +104,19 @@
         <line num="14" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="email-validator.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/utils/email-validator.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
   </project>
