@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622299102795" clover="3.2.0">
-  <project timestamp="1622299102795" name="All files">
+<coverage generated="1622299494063" clover="3.2.0">
+  <project timestamp="1622299494063" name="All files">
     <metrics statements="85" coveredstatements="84" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9" elements="114" coveredelements="111" complexity="0" loc="85" ncloc="85" packages="4" files="7" classes="7"/>
     <package name="presentation.controllers.signup">
       <metrics statements="40" coveredstatements="39" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
@@ -115,8 +115,8 @@
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
     </package>
