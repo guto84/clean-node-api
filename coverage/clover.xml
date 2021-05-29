@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622298291765" clover="3.2.0">
-  <project timestamp="1622298291765" name="All files">
-    <metrics statements="84" coveredstatements="83" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9" elements="113" coveredelements="110" complexity="0" loc="84" ncloc="84" packages="4" files="7" classes="7"/>
+<coverage generated="1622299102795" clover="3.2.0">
+  <project timestamp="1622299102795" name="All files">
+    <metrics statements="85" coveredstatements="84" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9" elements="114" coveredelements="111" complexity="0" loc="85" ncloc="85" packages="4" files="7" classes="7"/>
     <package name="presentation.controllers.signup">
       <metrics statements="40" coveredstatements="39" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/controllers/signup/signup.ts">
@@ -107,16 +107,17 @@
       </file>
     </package>
     <package name="utils">
-      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="email-validator.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/utils/email-validator.ts">
-        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
   </project>
