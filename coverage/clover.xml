@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1622299707229" clover="3.2.0">
-  <project timestamp="1622299707229" name="All files">
+<coverage generated="1622299790001" clover="3.2.0">
+  <project timestamp="1622299790001" name="All files">
     <metrics statements="85" coveredstatements="84" conditionals="20" coveredconditionals="18" methods="9" coveredmethods="9" elements="114" coveredelements="111" complexity="0" loc="85" ncloc="85" packages="4" files="7" classes="7"/>
     <package name="presentation.controllers.signup">
       <metrics statements="40" coveredstatements="39" conditionals="13" coveredconditionals="11" methods="2" coveredmethods="2"/>
@@ -108,7 +108,7 @@
     </package>
     <package name="utils">
       <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="email-validator.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/utils/email-validator.ts">
+      <file name="email-validator-adapter.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/utils/email-validator-adapter.ts">
         <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
