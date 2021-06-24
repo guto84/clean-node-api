@@ -67,72 +67,20 @@ const makeSut = (): SutTypes => {
   }
 }
 
-// describe('SignUp Controller', () => {
-//   test('Should return 400 if no name is provided', async () => {
-//     const { sut } = makeSut()
-//     const httpRequest = {
-//       body: {
-//         email: 'any@email.com',
-//         password: 'any_password',
-//         passwordConfirmation: 'any_password'
-//       }
-//     }
-//     const httpResponse = await sut.handle(httpRequest)
-//     expect(httpResponse).toEqual(badRequest(new MissingParamError('name')))
-//   })
-
-  // test('Should return 400 if no email is provided', async () => {
+describe('SignUp Controller', () => {
+  // test('Should return 400 if password confirmation fails', async () => {
   //   const { sut } = makeSut()
   //   const httpRequest = {
   //     body: {
   //       name: 'any_name',
+  //       email: 'any@email.com',
   //       password: 'any_password',
-  //       passwordConfirmation: 'any_password'
+  //       passwordConfirmation: 'invalid_password'
   //     }
   //   }
   //   const httpResponse = await sut.handle(httpRequest)
-  //   expect(httpResponse).toEqual(badRequest(new MissingParamError('email')))
+  //   expect(httpResponse).toEqual(badRequest(new InvalidParamError('passwordConfirmation')))
   // })
-
-  // test('Should return 400 if no password is provided', async () => {
-  //   const { sut } = makeSut()
-  //   const httpRequest = {
-  //     body: {
-  //       name: 'any_name',
-  //       email: 'any@email.com',
-  //       passwordConfirmation: 'any_password'
-  //     }
-  //   }
-  //   const httpResponse = await sut.handle(httpRequest)
-  //   expect(httpResponse).toEqual(badRequest(new MissingParamError('password')))
-  // })
-
-  // test('Should return 400 if no passwordConfirmation is provided', async () => {
-  //   const { sut } = makeSut()
-  //   const httpRequest = {
-  //     body: {
-  //       name: 'any_name',
-  //       email: 'any@email.com',
-  //       password: 'any_password'
-  //     }
-  //   }
-  //   const httpResponse = await sut.handle(httpRequest)
-  //   expect(httpResponse).toEqual(badRequest(new MissingParamError('passwordConfirmation')))
-  // })
-
-  test('Should return 400 if password confirmation fails', async () => {
-    const { sut } = makeSut()
-    const httpRequest = {
-      body: {
-        name: 'any_name',
-        email: 'any@email.com',
-        password: 'any_password',
-        passwordConfirmation: 'invalid_password'
-      }
-    }
-    const httpResponse = await sut.handle(httpRequest)
-    expect(httpResponse).toEqual(badRequest(new InvalidParamError('passwordConfirmation')))
-  })
 
   test('Should return 400 an invalid email is provided', async () => {
     const { sut, emailValidatorStub } = makeSut()
