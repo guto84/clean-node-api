@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625180359412" clover="3.2.0">
-  <project timestamp="1625180359412" name="All files">
+<coverage generated="1625181264033" clover="3.2.0">
+  <project timestamp="1625181264033" name="All files">
     <metrics statements="21" coveredstatements="19" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3" elements="30" coveredelements="26" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
     <file name="bcrypt-adapter.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/infra/criptography/bcrypt-adapter.ts">
       <metrics statements="21" coveredstatements="19" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="3"/>
@@ -12,8 +12,8 @@
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
       <line num="13" count="2" type="stmt"/>
@@ -21,8 +21,8 @@
       <line num="15" count="0" type="cond" truecount="0" falsecount="1"/>
       <line num="16" count="1" type="stmt"/>
       <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="19" count="2" type="cond" truecount="1" falsecount="0"/>
       <line num="20" count="0" type="cond" truecount="0" falsecount="1"/>
       <line num="21" count="1" type="stmt"/>
     </file>
