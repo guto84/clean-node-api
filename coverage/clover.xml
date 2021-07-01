@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625170636711" clover="3.2.0">
-  <project timestamp="1625170636711" name="All files">
-    <metrics statements="63" coveredstatements="37" conditionals="6" coveredconditionals="0" methods="8" coveredmethods="2" elements="77" coveredelements="39" complexity="0" loc="63" ncloc="63" packages="5" files="7" classes="7"/>
+<coverage generated="1625170872327" clover="3.2.0">
+  <project timestamp="1625170872327" name="All files">
+    <metrics statements="63" coveredstatements="36" conditionals="16" coveredconditionals="9" methods="8" coveredmethods="2" elements="87" coveredelements="47" complexity="0" loc="63" ncloc="63" packages="5" files="7" classes="7"/>
     <package name="data.protocols.cryptography">
       <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="hash-comparer.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/data/protocols/cryptography/hash-comparer.ts">
@@ -45,9 +45,9 @@
       </file>
     </package>
     <package name="data.usecases.authentication">
-      <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="37" coveredstatements="36" conditionals="10" coveredconditionals="9" methods="2" coveredmethods="2"/>
       <file name="db-authentication.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/data/usecases/authentication/db-authentication.ts">
-        <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="37" coveredstatements="36" conditionals="10" coveredconditionals="9" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -60,30 +60,30 @@
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="10" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="16" count="10" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
-        <line num="18" count="10" type="stmt"/>
-        <line num="19" count="10" type="stmt"/>
-        <line num="20" count="10" type="stmt"/>
-        <line num="21" count="10" type="stmt"/>
-        <line num="22" count="10" type="stmt"/>
-        <line num="23" count="10" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="39" type="stmt"/>
-        <line num="27" count="39" type="stmt"/>
-        <line num="28" count="39" type="stmt"/>
-        <line num="29" count="39" type="stmt"/>
-        <line num="30" count="39" type="stmt"/>
-        <line num="31" count="39" type="stmt"/>
-        <line num="32" count="39" type="stmt"/>
-        <line num="33" count="39" type="stmt"/>
-        <line num="34" count="39" type="stmt"/>
-        <line num="35" count="39" type="stmt"/>
-        <line num="36" count="39" type="stmt"/>
+        <line num="25" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="9" type="stmt"/>
+        <line num="29" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="9" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="37" count="1" type="stmt"/>
       </file>
     </package>
