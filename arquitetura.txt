@@ -1,0 +1,13 @@
+data = models
+- protocols
+- usecases -> classes e métodos
+
+domain  = interfaces
+
+infra = repositórios - banco de dados
+
+main
+
+presentation = controllers
+
+utils
