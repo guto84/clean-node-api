@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625443302466" clover="3.2.0">
-  <project timestamp="1625443302466" name="All files">
-    <metrics statements="432" coveredstatements="318" conditionals="91" coveredconditionals="54" methods="56" coveredmethods="37" elements="579" coveredelements="409" complexity="0" loc="432" ncloc="432" packages="18" files="39" classes="39"/>
+<coverage generated="1625443989649" clover="3.2.0">
+  <project timestamp="1625443989649" name="All files">
+    <metrics statements="432" coveredstatements="322" conditionals="96" coveredconditionals="59" methods="56" coveredmethods="37" elements="584" coveredelements="418" complexity="0" loc="432" ncloc="432" packages="18" files="39" classes="39"/>
     <package name="data.protocols.cryptography">
       <metrics statements="9" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="encrypter.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/data/protocols/cryptography/encrypter.ts">
@@ -357,7 +357,7 @@
       </file>
     </package>
     <package name="presentation.controllers.signup">
-      <metrics statements="34" coveredstatements="25" conditionals="5" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <metrics statements="34" coveredstatements="29" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="2"/>
       <file name="signup-controller-protocols.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/controllers/signup/signup-controller-protocols.ts">
         <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -366,36 +366,36 @@
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="signup-controller.ts" path="/home/guto/Documentos/codes/cursos/manguinho/clean-node-api/src/presentation/controllers/signup/signup-controller.ts">
-        <metrics statements="30" coveredstatements="25" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <metrics statements="30" coveredstatements="29" conditionals="9" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="6" type="cond" truecount="2" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="1" type="stmt"/>
       </file>
     </package>
