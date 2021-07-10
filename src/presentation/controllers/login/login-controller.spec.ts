@@ -1,13 +1,13 @@
-import { MissingParamError, ServerError } from "../../errors"
-import { badRequest, ok, serverError, unauthorizedError } from "../../helpers/http/http-helper"
-import { HttpRequest, Authentication, Validation } from "./login-controller-protocols"
-import { LoginController } from "./login-controller"
-import { AuthenticationModel } from "../../../domain/usecases/authentication"
+import { MissingParamError, ServerError } from '../../errors'
+import { badRequest, ok, serverError, unauthorizedError } from '../../helpers/http/http-helper'
+import { HttpRequest, Authentication, Validation } from './login-controller-protocols'
+import { LoginController } from './login-controller'
+import { AuthenticationModel } from '../../../domain/usecases/authentication'
 
 const makeAuthentication = (): Authentication => {
   class AuthenticationStub implements Authentication {
-    async auth(authentication: AuthenticationModel): Promise<string> {
-      return new Promise(resolve => resolve('any_token'))
+    async auth (authentication: AuthenticationModel): Promise<string> {
+      return await new Promise(resolve => resolve('any_token'))
     }
   }
   return new AuthenticationStub()
@@ -15,7 +15,7 @@ const makeAuthentication = (): Authentication => {
 
 const makeValidation = (): Validation => {
   class ValidationStub implements Validation {
-    validate(input: any): Error {
+    validate (input: any): Error {
       return null
     }
   }
@@ -25,7 +25,7 @@ const makeValidation = (): Validation => {
 const makeFakeRequest = (): HttpRequest => ({
   body: {
     email: 'any_email@email.com',
-    password: 'any_password',
+    password: 'any_password'
   }
 })
 
@@ -73,7 +73,6 @@ describe('Login Controller', () => {
     const httpResponse = await sut.handle(makeFakeRequest())
     expect(httpResponse).toEqual(ok({ accessToken: 'any_token' }))
   })
-
 
   test('Should call Validation with correct value', async () => {
     const { sut, validationStub } = makeSut()
