@@ -3,7 +3,11 @@ import { badRequest, serverError, ok, forbidden } from '../../helpers/http/http-
 import { EmailInUseError } from '../../errors'
 
 export class SignUpController implements Controller {
-  constructor (private readonly addAccount: AddAccount, private readonly validation: Validation, private readonly authentication: Authentication) {
+  constructor (
+    private readonly addAccount: AddAccount,
+    private readonly validation: Validation,
+    private readonly authentication: Authentication
+  ) {
     this.addAccount = addAccount
     this.validation = validation
     this.authentication = authentication
