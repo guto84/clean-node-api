@@ -85,10 +85,9 @@ describe('Account Mongo Repository', () => {
         name: 'any_name',
         email: 'anyemail@email.com',
         password: 'any_password',
-        accessToken: 'any_token',
-        role: 'any_role'
+        accessToken: 'any_token'
       })
-      const account = await sut.loadByToken('any_token', 'any_role')
+      const account = await sut.loadByToken('any_token')
       expect(account).toBeTruthy()
       expect(account.id).toBeTruthy()
       expect(account.name).toBe('any_name')
@@ -102,9 +101,10 @@ describe('Account Mongo Repository', () => {
         name: 'any_name',
         email: 'anyemail@email.com',
         password: 'any_password',
-        accessToken: 'any_token'
+        accessToken: 'any_token',
+        role: 'any_role'
       })
-      const account = await sut.loadByToken('any_token')
+      const account = await sut.loadByToken('any_token', 'any_role')
       expect(account).toBeTruthy()
       expect(account.id).toBeTruthy()
       expect(account.name).toBe('any_name')
