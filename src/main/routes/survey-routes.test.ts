@@ -18,7 +18,7 @@ describe('Survey Routes', () => {
   beforeEach(async () => {
     surveyCollection = await MongoHelper.getCollection('surveys')
     await surveyCollection.deleteMany({})
-    accountCollection = await MongoHelper.getCollection('account')
+    accountCollection = await MongoHelper.getCollection('accounts')
     await accountCollection.deleteMany({})
   })
 
@@ -37,9 +37,7 @@ describe('Survey Routes', () => {
         })
         .expect(403)
     })
-  })
 
-  describe('POST /surveys', () => {
     test('Should return 204 on add survey with valid accessToken', async () => {
       const res = await accountCollection.insertOne({
         name: 'Guto',
